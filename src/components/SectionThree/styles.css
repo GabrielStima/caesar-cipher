@@ -1,0 +1,15 @@
+.SectionThree {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+
+    .section-content {
+        h1 {
+            margin-bottom: 24px;
+        }
+        p {
+            margin: 24px 0;
+        }
+    }
+}

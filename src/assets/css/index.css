@@ -1,0 +1,20 @@
+:root {
+    --principal-color: #0077B6;
+    --second-color: #FFFFFF;
+    --third-color: #1E1E1E;
+    --fourth-color: #111111;
+    --fifth-color: #03045e;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--third-color);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 56px;  
+    font-weight: bold;
+    color: var(--fourth-color);
+  }

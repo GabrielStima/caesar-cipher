@@ -1,0 +1,49 @@
+.section-container {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    padding: 0 200px;
+
+    .section-content {
+        h1 {
+            margin-bottom: 24px;
+        }
+        p {
+            margin: 24px 0;
+        }
+
+        .section-content-start {
+            width: 539px;
+            display: flex;
+            gap: 20px;
+
+            input {
+                border-radius: 10px;
+                height: 45px;
+                border: .1rem solid black;
+                width: 100%;
+                padding: 0 20px;
+            }
+            button {
+                border-radius: 10px;
+                background-color: var(--principal-color);
+                color: var(--second-color);
+                border: none;
+                width: 92px;
+                height: 48px;
+
+                &:hover {
+                    background-color: var(--fifth-color);
+                }
+
+                &:disabled {
+                    background-color: gray;
+                }
+            }
+        }
+    }
+ 
+    .section-img img{
+        width: 30vw;
+    }
+}
